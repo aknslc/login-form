@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat, sans-serif;
+}
+
+
+body {
+    background-color: ;
+    background: rgb(20, 124, 122);
+    background: linear-gradient(90deg, #161A42 0%, rgb(24, 27, 27) 53%, rgb(15, 24, 24) 100%);
+}
+
+.container {
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+form {
+    padding: 100px 50px;
+    background: rgb(20, 124, 122);
+    background: linear-gradient(90deg, #4e55a4 0%, #54577d 53%, #4b54be 100%);
+    width: 400px;
+    border-radius: 5px;
+    
+
+}
+
+
+form h2{
+    color: #fff;
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+form input {
+    border: none;
+    outline: none;
+    padding: 10px 5px;
+    margin: 15px 0px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: cornsilk;
+    
+}
+
+form label{
+    display: block;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+.submitBtn{
+    padding: 15px 25px;
+    background-color: #1f2036;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.submitBtn:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+
+
+
+
+
+/* User Profile */ 
+
+h1 {
+    color: #fff;
+    font-size: 55px;
+}
+
+.logoutBtn{
+    padding: 15px 25px;
+    background-color: rgb(195, 78, 78);
+    border: none;
+    color: #fff;
+    font-size: 25px;
+
+}
+
+.logoutBtn:hover{
+    opacity: .9;
+    cursor: pointer;
+
+}
+
+.userProfileContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
